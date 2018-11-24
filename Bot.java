@@ -31,15 +31,15 @@ public class Bot extends JFrame implements KeyListener {
 
 
     // Button Attributes:
-    send = new JButton("SEND");
-    panel.add(send);
+    //send = new JButton("SEND");
+    //panel.add(send);
 
     add(panel, BorderLayout.SOUTH);
 
     // Chat Area Attributes:
     chatArea = new JTextArea();
     add(chatArea, BorderLayout.CENTER);
-    validate();
+    //validate();
     txtEnter.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e) {
